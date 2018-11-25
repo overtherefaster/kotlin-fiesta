@@ -18,7 +18,7 @@ object DataStore {
     }
 
     // more kotlin-ey, take lambda param instead of runnable
-    fun exeute(fn: () -> Unit)
+    fun execute(fn: () -> Unit)
     {
         doAsync { fn() }
     }
